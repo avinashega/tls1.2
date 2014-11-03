@@ -1,0 +1,17 @@
+{
+  "name": "tls1.2",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Avinash Ega",
+  "description": "",
+  "scripts": {
+    "start": "node --enable-ssl2 app.js"
+  },
+  "dependencies": {
+    "mongoose" :"*"
+  },
+  "engines": {
+    "node": "0.10.*",
+    "npm": "1.2.*"
+  }
+}
